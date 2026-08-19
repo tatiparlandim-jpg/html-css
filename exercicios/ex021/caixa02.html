@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: cursive;
+            background-color: white;
+            margin: 0px;
+        }
+        header {
+            background-color: pink;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: inset 0px 0px 3px 3px rgba(0, 0, 0, 0.418);
+        }
+        nav {
+            background-color: rgb(248, 153, 184);
+            padding: 3px;
+            box-shadow: 1px 1px 10px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main {
+            background-color: pink;
+            padding: 10px;
+            box-shadow: 1px 1px 10px black;
+            margin: 40px;
+            border-radius: 10px 40px
+           
+        }
+        article {
+            background-color: rgb(178, 236, 160);
+            padding: 1px;
+            border-radius: 10px 40px
+            
+        }
+        article > aside {
+            background-color: rgb(148, 231, 122);
+            padding: 1px;
+            border-radius: 5px 30px
+            
+            
+
+        }
+        footer {
+            background-color:rgb(178, 236, 160);
+            color: black;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.418);
+        }
+        footer > p {
+            margin: 0px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: rgb(247, 162, 228);
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> Uso da babosa todos os dias.</p>
+
+        </section>
+        <section id="Dicas de beleza">
+            <article>
+                <h2>Cuidados com o rosto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et possimus fugit obcaecati! Nostrum, illum suscipit, eum fugiat molestiae sapiente non sunt placeat distinctio natus, delectus consectetur. Maiores necessitatibus rerum quos! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi dolore distinctio provident cumque maxime beatae sed accusantium eos tempore, nesciunt necessitatibus magnam quos dolores! In illum voluptatibus temporibus voluptatum accusamus.</p>
+                <aside>
+                    <p>Artigo escrito por tati parlandim</p>
+
+                </aside>
+            </article>
+            
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvolvido pelo cursoemVideo</p>
+
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
